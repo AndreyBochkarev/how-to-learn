@@ -137,17 +137,21 @@
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
-  margin-bottom: 20px;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.table__text:last-child {
+  margin: 20px 0 0 0;
 }
 
 .feynman {
@@ -225,7 +229,7 @@
 }
 
 .section-subtitle_theme_dark {
-  margin-bottom: 80px;
+  margin: 0 auto 0 auto;
   color: white;
   z-index: 1;
 }
@@ -238,6 +242,8 @@
 
 .table__cell_theme_dark {
   width: 200px;
+  margin-top: 80px;
+  margin-bottom: 0;
   z-index: 1;
 }
 
@@ -250,7 +256,9 @@
 }
 
 .footer {
-  margin: 0 auto 40px auto;
+  margin: 0 auto 0 auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
   background-color: #1f1f1f;
 }
 
@@ -274,8 +282,7 @@
 }
 
 .footer__author {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;

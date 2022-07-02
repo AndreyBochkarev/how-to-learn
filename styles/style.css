@@ -53,6 +53,11 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  transition: ease-in 3s;
+  opacity: 0.5;
+}
+
 .header__main-illustration {
   position: absolute;
   object-fit: cover;
@@ -71,6 +76,7 @@
   top: 64px;
   z-index: 1;
   background-color: #2f80ed;
+  transform: rotate(360deg, 20s, infinite);
 }
 
 .two-columns {
@@ -123,6 +129,44 @@
   font-weight: normal;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.cards__item {
+  width: 920px;
+  padding: 60px 40px 43px 40px;
+  margin-top: 60px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 0 0 16px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.cards__description {
+  margin: 16px 0 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video__iframes {
+  margin: 0 auto 0 auto;
+}
+
 .table {
   display: flex;
   justify-content: space-between;
@@ -147,6 +191,62 @@
   margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.khan__author {
+  margin: auto;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0 0 50px 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 0 0 36px 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin: 0 0 10px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  margin: 0 0 68px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__book-container {
+  width: 620px;
+  height: 608px;
+}
+
+.khan__book-pic {
+  margin-right: 48px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
   font-weight: normal;
 }
 
@@ -249,6 +349,18 @@
 
 .table__text_theme_dark {
   z-index: 1;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 0 auto 0 auto;
+  list-style-type: none;
+}
+
+.resources__link {
+  width: 270px;
+  height: 38px;
+  list-style-type: none;
 }
 
 .footer {
